@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "satellites.0.position",
+    "type": "java.lang.String",
+    "description": "Position of sato satellite"
+  },
+  {
+    "name": "satellites.0.name",
+    "type": "java.lang.String",
+    "description": "Name variable for sato satellite"
+  },
+  {
+    "name": "satellites.1.position",
+    "type": "java.lang.String",
+    "description": "Position of kenobi satellite"
+  },
+  {
+    "name": "satellites.1.name",
+    "type": "java.lang.String",
+    "description": "Name variable for kenobi satellite"
+  },
+  {
+    "name": "satellites.2.position",
+    "type": "java.lang.String",
+    "description": "Position of skywalker satellite"
+  },
+  {
+    "name": "satellites.2.name",
+    "type": "java.lang.String",
+    "description": "Name variable for skywalker satellite"
+  },
+  {
+    "name": "satellites.count",
+    "type": "java.lang.String",
+    "description": "Satellites number"
+  }
+]}

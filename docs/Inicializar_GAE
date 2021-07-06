@@ -1,0 +1,8 @@
+Para hacer deploy de la app en Google App Engine:
+1- sudo snap install google-cloud-sdk
+2- gcloud init -> en este paso hay que loguearse con la cuenta de google, se abre el navegador y hay que elegir la cuenta.
+2.1- Elegir la opcion 5 para crear un nuevo proyecto
+3- Para Crear y deployar el proyecto
+3.1- Hay que habilitar Clout Bouild API -> https://console.cloud.google.com/marketplace/product/google/cloudbuild.googleapis.com?q=search&referrer=search&folder=&organizationId=&project=velvety-column-318318
+3.2- ./mvnw package && gcloud app deploy target/spring-boot-ml-0.1.0.jar
+3.3- Opcion 16 para el servior en sudamerica
